@@ -5016,7 +5016,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 .bradcam_area {
   background-size: cover;
   background-position: center center;
-  padding: 90px 0 90px 0;
+  padding: 150px 0 150px 0;
   background-repeat: no-repeat;
   position: relative;
   z-index: 0;
@@ -5025,12 +5025,14 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 /* title of th section After bradcam_area in blue */
 .blue-area {
   width: 100%;
-  height: 85px;
+  height: 75px;
   background-color: #488ca4;
+  display: flex;
+  align-items: center;
 }
 
 .blue-area h3 {
-  font-size: 60px;
+  font-size: 50px;
   color: #fff;
   font-weight: 400;
   margin-bottom: 0;
